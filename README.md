@@ -53,6 +53,4 @@ import os
 for file in os.listdir():
     if file.endswith(".mp3"):
         files.download(file)
-!pip install yt-dlp
-!apt-get update -y
 !apt-get install ffmpeg -y
