@@ -23,9 +23,7 @@ This project is designed to run in **Google Colab**.
 - yt-dlp
 - ffmpeg
 
-All dependencies are installed inside the notebook using:
 
-```bash
 
 How to Use
 Step 1: Install Dependencies
