@@ -1,26 +1,33 @@
-YouTube to MP3 Downloader (Google Colab)
-This project allows you to download audio from a YouTube video as an MP3 file using yt-dlp and ffmpeg inside Google Colab.
+# 🎵 YouTube to MP3 Downloader (Google Colab)
 
-📌 Features
-Downloads audio from any public YouTube video
-Converts audio to MP3 format
-Automatically downloads the MP3 file to your local machine (via Google Colab)
-Simple and beginner-friendly setup
-🛠 Requirements
-This project is designed to run in Google Colab.
+This project allows you to download audio from a YouTube video as an MP3 file using **yt-dlp** and **ffmpeg** inside Google Colab.
 
-Dependencies:
+---
 
-Python 3
-yt-dlp
-ffmpeg
+## 📌 Features
+
+- Downloads audio from any public YouTube video
+- Converts audio to MP3 format
+- Automatically downloads the MP3 file to your local machine (via Google Colab)
+- Simple and beginner-friendly setup
+
+---
+
+## 🛠 Requirements
+
+This project is designed to run in **Google Colab**.
+
+### Dependencies:
+
+- Python 3
+- yt-dlp
+- ffmpeg
+
 All dependencies are installed inside the notebook using:
 
-bash
-!pip install yt-dlp
-!apt-get update -y
-!apt-get install ffmpeg -y
-🚀 How to Use
+```bash
+
+How to Use
 Step 1: Install Dependencies
 python
 !pip install yt-dlp
@@ -49,3 +56,6 @@ import os
 for file in os.listdir():
     if file.endswith(".mp3"):
         files.download(file)
+!pip install yt-dlp
+!apt-get update -y
+!apt-get install ffmpeg -y
