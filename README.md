@@ -31,6 +31,7 @@ python
 !pip install yt-dlp
 !apt-get update -y
 !apt-get install ffmpeg -y
+
 ## Step 2: Download Audio from YouTube
 Replace VIDEO_ID with the actual YouTube video ID.
 
@@ -44,13 +45,10 @@ This will:
 Extract audio from the video
 Convert it to MP3
 Save it in the current working directory
-## Step 3: Download the MP3 File to Your Computer
-python
-from google.colab import files
-import os
 
-# Find and download the first MP3 file in the directory
+## Step 3: Download the MP3 File to Your Computer
+This finds the first mp3 file in the current folder and downloads it
 for file in os.listdir():
-    if file.endswith(".mp3"):
-        files.download(file)
+if file.endswith(".mp3"):
+files.download(file)
 !apt-get install ffmpeg -y
