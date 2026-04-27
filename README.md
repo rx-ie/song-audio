@@ -36,9 +36,8 @@ Replace VIDEO_ID with the actual YouTube video ID.
 
 Example:
 
-text
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
-bash
+
 !yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=VIDEO_ID
 This will:
 
