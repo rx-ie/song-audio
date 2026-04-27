@@ -25,13 +25,13 @@ This project is designed to run in **Google Colab**.
 
 
 
-###How to Use
-##Step 1: Install Dependencies
+### How to Use
+## Step 1: Install Dependencies
 python
 !pip install yt-dlp
 !apt-get update -y
 !apt-get install ffmpeg -y
-##Step 2: Download Audio from YouTube
+## Step 2: Download Audio from YouTube
 Replace VIDEO_ID with the actual YouTube video ID.
 
 Example:
@@ -44,7 +44,7 @@ This will:
 Extract audio from the video
 Convert it to MP3
 Save it in the current working directory
-##Step 3: Download the MP3 File to Your Computer
+## Step 3: Download the MP3 File to Your Computer
 python
 from google.colab import files
 import os
